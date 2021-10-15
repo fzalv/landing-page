@@ -12,7 +12,17 @@
 .jumbotron {
     background-image: url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-size: cover;
-    height: 640px;
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron h1 {
+    color: white;
+    margin-top: 175px;
+    font-weight: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
 }
 
 @media (min-width: 992px) { 
@@ -36,5 +46,6 @@
 
     .jumbotron {
         margin-top: -75px;
+        height: 640px;
     }
 }
