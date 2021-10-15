@@ -2,3 +2,24 @@
     font-family: 'Viga', sans-serif;
     font-size: 32px;
 }
+
+/* utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #fc0341;
+        width: 50%;
+        margin: auto;
+    }
+}
