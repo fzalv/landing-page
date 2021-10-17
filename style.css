@@ -85,6 +85,34 @@
     padding-bottom: 20px;
 }
 
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial h5 {
+    text-align: center;
+    font-style: italic;
+
+}
+
+.figure img {
+    margin: 15px;
+}
+
+.figure .kanan-kiri {
+    width: 60px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+.testimonial figure figcaption {
+    font-weight: bold;
+}
+
+.figure .img-tengah {
+    width: 90px;
+}
+
 @media (min-width: 992px) { 
     .navbar-brand, .nav-link {
         color: white !important;
